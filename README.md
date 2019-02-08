@@ -1,4 +1,5 @@
-##Michael Bagget - 2019
+## Michael Bagget - 2019
+
 Working on portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
