@@ -5,11 +5,24 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar">
-          <div className="container">
-            <a className="navbar-brand"> MB (Logo)</a>
-            <span className="navbar-text">
-              Clickable Nav Content Will Appear Here
-            </span>
+          <a className="navbar-brand"> MB (Logo)</a>
+          <div className="navcontainer">
+            <li>
+              <a href="#" className="nav-link">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="nav-link">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#" className="nav-link">
+                asdf
+              </a>
+            </li>
+            <div className="line" />
           </div>
         </nav>
       </div>

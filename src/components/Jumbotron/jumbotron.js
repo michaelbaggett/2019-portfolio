@@ -5,7 +5,9 @@ class Jumbotron extends Component {
     return (
       <div>
         <div class="jumbotron">
-          <h1 class="display-4">What up its ya boy mbag24</h1>
+          <h1 class="display-4" id="jtronh1">
+            Hello I'm Michael.
+          </h1>
           <p class="lead">
             Let's style some more content related to me that the user sees upon
             initial loading.

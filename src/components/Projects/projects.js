@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import avatar from "../../images/avatar.jpg";
 
 class Projects extends Component {
   render() {
@@ -39,11 +40,7 @@ class Projects extends Component {
           </div>
           <div className="row">
             <div className="col-4">
-              <img
-                id="colimg"
-                src="https://via.placeholder.com/300x300"
-                alt="300x300img"
-              />
+              <img id="colimg" src={avatar} alt="mb-avatar" />
             </div>
             <div className="col-8" id="testcol">
               I am a row that will hold some content opposite of an image to the
