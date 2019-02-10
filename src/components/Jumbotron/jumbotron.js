@@ -4,20 +4,25 @@ class Jumbotron extends Component {
   render() {
     return (
       <div>
-        <div class="jumbotron">
-          <h1 class="display-4" id="jtronh1">
+        <div className="jumbotron">
+          <h1 className="display-4" id="jtronh1" style={font}>
             Hello I'm Michael.
           </h1>
-          <p class="lead">
-            Let's style some more content related to me that the user sees upon
-            initial loading.
+          <p className="lead" style={font}>
+            Web Developer based in Austin, TX
           </p>
-          <hr class="my-4" />
-          <p>Lets put some styled interesting, but limited content here!</p>
+          <hr className="my-4" />
+          <p style={font}>
+            Lets put a bit more info about me here once ready :){" "}
+          </p>
         </div>
       </div>
     );
   }
 }
+
+const font = {
+  fontFamily: "Josefin Sans"
+};
 
 export default Jumbotron;

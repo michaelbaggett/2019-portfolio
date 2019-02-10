@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div>
         <div className="container">
-          <p>
+          <p className="about">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis
             urna, posuere non nulla ac, auctor tempor felis. Nulla in mi non
             diam pellentesque elementum nec vel diam. Aliquam enim turpis,

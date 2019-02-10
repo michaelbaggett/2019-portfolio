@@ -14,11 +14,8 @@
 }
 .jumbotron {
   height: 75vh;
+  background-color: white;
 }
-
-/* .App-link {
-  color: #61dafb;
-} */
 
 #colimg {
   width: 300px;
@@ -36,13 +33,14 @@ li {
 
 li,
 a {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Josefin Sans;
   text-decoration: none;
   color: black;
   text-align: center;
   text-decoration: none;
   width: 120px;
   padding: 0 20px;
+  text-transform: uppercase;
 }
 
 .nav-link::after {
@@ -57,4 +55,9 @@ a {
 .nav-link:hover::after {
   width: 100%;
   transition: width 0.2s;
+}
+
+.about {
+  font-family: Josefin Sans;
+  font-size: 18px;
 }
