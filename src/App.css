@@ -3,15 +3,29 @@ html {
 }
 
 body {
-  background-color: #333333;
+  background-color: #dee0e0;
 }
 .App {
   text-align: center;
 }
 
 .jumbotron {
-  height: 75vh;
-  background-color: white;
+  height: 100vh;
+  background-color: #dee0e0;
+  color: #3f512b;
+}
+
+.col-9 hr {
+  border-color: #3f512b;
+  width: 75%;
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+.col-9 {
+  position: relative;
+  margin-top: 100px;
+  text-align: right;
 }
 
 #colimg {
@@ -28,7 +42,7 @@ li,
 a {
   font-family: Josefin Sans;
   text-decoration: none;
-  color: #ffff00;
+  color: #3f512b;
   text-align: center;
   text-decoration: none;
   width: 120px;
@@ -37,12 +51,12 @@ a {
 }
 
 .navbar {
-  color: #ffff00;
+  color: #3f512b;
 }
 
 .nav-link:hover {
   text-decoration: none;
-  color: #ffff00;
+  color: #3f512b;
 }
 
 .nav-link::after {
@@ -50,7 +64,7 @@ a {
   display: block;
   width: 0;
   height: 5px;
-  background: #ffff00;
+  background: #3f512b;
   transition: width 0.2s;
 }
 
@@ -67,5 +81,10 @@ a {
 #proj {
   /* border: solid 2px black; */
   margin: 25px;
-  background-color: burlywood;
+  background-color: #eeefef;
+}
+
+#logo {
+  max-height: 250px;
+  max-width: 250px;
 }

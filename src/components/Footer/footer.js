@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { white } from "ansi-colors";
 
 class Footer extends Component {
   render() {
@@ -11,10 +10,10 @@ class Footer extends Component {
           </div>
           <div className="row">
             <div className="col">
-              <a href="#">
+              <a href="https://github.com/michaelbaggett">
                 <i class="fab fa-github" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/michael-baggett-326689149/">
                 <i class="fab fa-linkedin" />
               </a>
             </div>

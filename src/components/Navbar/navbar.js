@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import logo from "../../images/logo.png";
 
 class Navbar extends Component {
   render() {
     return (
       <div>
         <nav className="navbar">
-          <a className="navbar-brand"> MB (Logo)</a>
+          <a href="#" className="navbar-brand">
+            <img id="logo" src={logo} alt="mb-logo" />
+          </a>
           <div className="navcontainer">
             <li>
               <a href="#about" className="nav-link">

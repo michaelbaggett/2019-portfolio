@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import avatar from "../../images/avatar.jpg";
+import mbag from "../../images/mbag24.png";
 
 class Projects extends Component {
   render() {
@@ -11,12 +11,12 @@ class Projects extends Component {
               <h1>Zoopocalypse</h1>
               <h4>A Spelling Playground</h4>
               <button type="button">Check me out!</button>
-              <img id="colimg" src={avatar} alt="mb-avatar" />
+              <img id="colimg" src={mbag} alt="mb-avatar" />
             </div>
             <div className="col" id="proj">
               <h1>Guess Who: Classical Music Edition</h1>
               <h4>Drop the needle</h4>
-              <img id="colimg" src={avatar} alt="mb-avatar" />
+              <img id="colimg" src={mbag} alt="mb-avatar" />
             </div>
           </div>
           <div className="row">

@@ -9,9 +9,9 @@ class Jumbotron extends Component {
             Hello I'm Michael.
           </h1>
           <p className="lead" style={font}>
-            Web Developer based in Austin, TX
+            Full-Stack Web Developer based in Austin, TX
           </p>
-          <hr className="my-4" />
+          <hr className="my-4" style={{ borderColor: "#3f512b" }} />
           <p style={font}>
             Lets put a bit more info about me here once ready :){" "}
           </p>

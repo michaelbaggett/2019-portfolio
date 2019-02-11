@@ -1,11 +1,22 @@
 import React, { Component } from "react";
+import mbag from "../../images/mbag24.png";
 
 class About extends Component {
   render() {
     return (
       <div>
-        <div className="container">
-          <p className="about" style={{ color: "white" }} id="about">
+        <div className="container" id="about">
+          <div className="row">
+            <div className="col-3">
+              <img id="colimg" src={mbag} alt="mb-avatar" />
+            </div>
+            <div className="col-9" style={style}>
+              <h3>Coding. Blah Blah Blah More here</h3>
+              <hr className="my-4" />
+              <h5>Fun Fact!</h5>
+            </div>
+          </div>
+          <p className="about" style={{ color: "#3F512B" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis
             urna, posuere non nulla ac, auctor tempor felis. Nulla in mi non
             diam pellentesque elementum nec vel diam. Aliquam enim turpis,
@@ -34,5 +45,9 @@ class About extends Component {
     );
   }
 }
+
+const style = {
+  color: "#3F512B"
+};
 
 export default About;
