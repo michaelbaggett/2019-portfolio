@@ -11,10 +11,10 @@ class Footer extends Component {
           <div className="row">
             <div className="col">
               <a href="https://github.com/michaelbaggett">
-                <i class="fab fa-github" />
+                <i className="fab fa-github" />
               </a>
               <a href="https://www.linkedin.com/in/michael-baggett-326689149/">
-                <i class="fab fa-linkedin" />
+                <i className="fab fa-linkedin" />
               </a>
             </div>
           </div>

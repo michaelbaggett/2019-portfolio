@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar">
-          <a href="#" className="navbar-brand">
+          <a href="#navbar" className="navbar-brand">
             <img id="logo" src={logo} alt="mb-logo" />
           </a>
           <div className="navcontainer">
