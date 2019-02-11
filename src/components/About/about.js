@@ -18,7 +18,7 @@ class About extends Component {
           </div>
           <div className="row">
             <div className="col-10">
-              <h3>ayo lmao we out here doin it</h3>
+              <h3>mbag24 in the house</h3>
             </div>
           </div>
         </div>
