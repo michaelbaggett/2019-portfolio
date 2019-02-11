@@ -24,7 +24,7 @@ li,
 a {
   font-family: Josefin Sans;
   text-decoration: none;
-  color: yellow;
+  color: #ffff00;
   text-align: center;
   text-decoration: none;
   width: 120px;
@@ -33,12 +33,12 @@ a {
 }
 
 .navbar {
-  color: yellow;
+  color: #ffff00;
 }
 
 .nav-link:hover {
   text-decoration: none;
-  color: yellow;
+  color: #ffff00;
 }
 
 .nav-link::after {
@@ -46,7 +46,7 @@ a {
   display: block;
   width: 0;
   height: 5px;
-  background: yellow;
+  background: #ffff00;
   transition: width 0.2s;
 }
 
@@ -61,11 +61,7 @@ a {
 }
 
 #proj {
-  border: solid 2px black;
+  /* border: solid 2px black; */
   margin: 25px;
-  background-color: yellow;
-}
-
-.row {
-  background-color: red;
+  background-color: burlywood;
 }

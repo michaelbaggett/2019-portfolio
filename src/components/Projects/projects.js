@@ -26,18 +26,3 @@ class Projects extends Component {
 }
 
 export default Projects;
-
-// <div className="row">
-// <div className="col-4">
-//   <img id="colimg" src={avatar} alt="mb-avatar" />
-// </div>
-// <div className="col-8" id="testcol">
-//   I am a row that will hold some content opposite of an image to the
-//   left of me.
-// </div>
-// </div>
-// <div className="row">
-// <div className="col">
-//   <p>some moreinformation will go here and it will be styled</p>
-// </div>
-// </div>
