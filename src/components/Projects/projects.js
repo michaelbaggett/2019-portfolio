@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div id="projectvh">
-        <div className="container">
+        <div className="container" id="projects">
           <div className="row">
             <div className="col" id="proj">
               <h1>Zoopocalypse</h1>
@@ -18,6 +18,9 @@ class Projects extends Component {
               <h4>Drop the needle</h4>
               <img id="colimg" src={avatar} alt="mb-avatar" />
             </div>
+          </div>
+          <div className="row">
+            <div className="col" style={{ height: "750px" }} />
           </div>
         </div>
       </div>

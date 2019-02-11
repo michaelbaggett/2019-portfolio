@@ -8,17 +8,17 @@ class Navbar extends Component {
           <a className="navbar-brand"> MB (Logo)</a>
           <div className="navcontainer">
             <li>
-              <a href="#" className="nav-link">
+              <a href="#about" className="nav-link">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <a href="#projects" className="nav-link">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link">
+              <a href="#asdf" className="nav-link">
                 asdf
               </a>
             </li>
