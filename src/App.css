@@ -89,6 +89,15 @@ a {
 }
 
 #logo {
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.col-8,
+.col-4 {
+  text-align: left;
+}
+
+.space {
+  min-height: 10%;
 }

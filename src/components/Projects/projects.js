@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import mbag from "../../images/mbag24.png";
+import zoo from "../../images/zoo_logo.png";
 
 class Projects extends Component {
   render() {
@@ -8,15 +8,30 @@ class Projects extends Component {
         <div className="container" id="projects">
           <div className="row">
             <div className="col" id="proj">
-              <h1>Zoopocalypse</h1>
-              <h4>A Spelling Playground</h4>
-              <button type="button">Check me out!</button>
-              <img id="colimg" src={mbag} alt="mb-avatar" />
+              <img id="colimg" src={zoo} alt="zoopocalypse logo" />
+              <h5>A Spelling Playground for Children</h5>
+              <p>
+                In Development. Zoopocalypse aims to reinforce the correct
+                spelling of zoo animal names. Spelling an animal name correctly,
+                in order, releases the animal from its cage. As the player
+                levels up, the animal names grow more challenging.{" "}
+              </p>
+              <button type="button" className="btn btn-primary">
+                Check me out!
+              </button>
             </div>
             <div className="col" id="proj">
-              <h1>Guess Who: Classical Music Edition</h1>
-              <h4>Drop the needle</h4>
-              <img id="colimg" src={mbag} alt="mb-avatar" />
+              <h1>Guess the Composer</h1>
+              <h5>Test your listening chops</h5>
+              <p>
+                A simple take on a standard listening exercise from music
+                school. Listen to context clues from the composition playing and
+                see if you can guess the composer's name.{" "}
+              </p>
+              <img id="colimg" src="" alt="mb-avatar" /> <br />
+              <button type="button" className="btn btn-primary">
+                Drop the needle
+              </button>
             </div>
           </div>
           <div className="row">

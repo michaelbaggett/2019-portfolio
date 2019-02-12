@@ -16,9 +16,13 @@ class About extends Component {
               <h5>Fun Fact!</h5>
             </div>
           </div>
+          <div className="space" />
           <div className="row">
-            <div className="col-10">
-              <h3>mbag24 in the house</h3>
+            <div className="col-8">
+              <h3>Text text text i am some text</h3>
+            </div>
+            <div className="col-4">
+              text text i am a bit more text hahahaha this is fun isn't it?
             </div>
           </div>
         </div>
