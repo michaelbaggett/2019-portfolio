@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/static/media/zoo_logo.32a6f9c2.png"
   },
   {
+    "revision": "a87f829e7e333efb12652d2a2d1753dd",
+    "url": "/static/media/resume.a87f829e.pdf"
+  },
+  {
     "revision": "94040c70abec8e8a4ed8ea0e90b71a5a",
     "url": "/static/media/mbag24.94040c70.png"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "34018466abeaad582282",
-    "url": "/static/js/main.34018466.chunk.js"
+    "revision": "c97b45ab7ab1aebfaa67",
+    "url": "/static/js/main.c97b45ab.chunk.js"
   },
   {
-    "revision": "ac52dc1e9c911371b131",
-    "url": "/static/js/1.ac52dc1e.chunk.js"
+    "revision": "21b50dd47b0fc3d2b9ff",
+    "url": "/static/js/1.21b50dd4.chunk.js"
   },
   {
-    "revision": "34018466abeaad582282",
-    "url": "/static/css/main.cef8be01.chunk.css"
+    "revision": "c97b45ab7ab1aebfaa67",
+    "url": "/static/css/main.eece8e9e.chunk.css"
   },
   {
-    "revision": "cd0daa6d09c87032b73ee2e4703c8e86",
+    "revision": "d2f683d6e4962df37a2cd42c72b37e17",
     "url": "/index.html"
   }
 ];
