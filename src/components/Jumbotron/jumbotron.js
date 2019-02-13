@@ -8,13 +8,8 @@ class Jumbotron extends Component {
           <h1 className="display-4" id="jtronh1" style={font}>
             Hello I'm Michael.
           </h1>
-          <p className="lead" style={font}>
-            Full-Stack Web Developer based in Austin, TX
-          </p>
           <hr className="my-4" style={{ borderColor: "#3f512b" }} />
-          <p style={font}>
-            Lets put a bit more info about me here once ready :){" "}
-          </p>
+          <p style={font}>Full-Stack Web Developer based in Austin, TX </p>
         </div>
       </div>
     );

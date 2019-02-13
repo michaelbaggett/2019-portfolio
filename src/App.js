@@ -12,8 +12,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Jumbotron />
-        <About />
         <Projects />
+        <About />
         <Footer />
       </div>
     );

@@ -11,18 +11,23 @@ class About extends Component {
               <img id="colimg" src={mbag} alt="mb-avatar" />
             </div>
             <div className="col-9" style={style} id="aboutrow1col1">
-              <h3>Coding. Blah Blah Blah More here</h3>
+              <h3>Developer | Opera Singer </h3>
               <hr className="my-4" />
-              <h5>Fun Fact!</h5>
+              <h5>I love working and building with javascript.</h5>
             </div>
           </div>
           <div className="space" />
           <div className="row">
             <div className="col-8">
-              <h3>Text text text i am some text</h3>
+              <h3>
+                When not at the keyboard, you'll find me on the golf course.{" "}
+              </h3>
             </div>
             <div className="col-4">
-              text text i am a bit more text hahahaha this is fun isn't it?
+              <h5>
+                My code, much like my golf game, revolves around simplicity with
+                dashes of creativity.{" "}
+              </h5>
             </div>
           </div>
         </div>

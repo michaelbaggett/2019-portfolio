@@ -19,6 +19,10 @@ body {
   height: 100vh;
 }
 
+#projects {
+  height: 75vh;
+}
+
 .col-9 hr {
   border-color: #3f512b;
   width: 75%;
@@ -55,6 +59,12 @@ a {
 }
 
 .navbar {
+  color: #3f512b;
+}
+
+h3,
+h5 {
+  font-family: Josefin Sans;
   color: #3f512b;
 }
 
