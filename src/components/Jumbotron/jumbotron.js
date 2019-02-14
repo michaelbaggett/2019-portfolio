@@ -7,7 +7,7 @@ class Jumbotron extends Component {
         <div className="jumbotron">
           <div className="typewriter">
             <h1 className="display-4" style={font}>
-              <span>Hello I'm Michael.</span>
+              Hello I'm Michael.
             </h1>
           </div>
           <hr className="my-4" style={{ borderColor: "#3f512b" }} />
