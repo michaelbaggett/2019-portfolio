@@ -16,9 +16,11 @@ class Projects extends Component {
                 in order, releases the animal from its cage. As the player
                 levels up, the animal names grow more challenging.{" "}
               </p>
-              <button type="button" className="btn btn-primary">
-                Check me out!
-              </button>
+              <a href="https://zoopocalypse.herokuapp.com" target="_blank">
+                <button type="button" className="btn btn-green">
+                  Check me out!
+                </button>
+              </a>
             </div>
             <div className="col" id="proj">
               <h1>Guess the Composer</h1>
@@ -28,8 +30,8 @@ class Projects extends Component {
                 school. Listen to context clues from the composition playing and
                 see if you can guess the composer's name.{" "}
               </p>
-              <img id="colimg" src="" alt="mb-avatar" /> <br />
-              <button type="button" className="btn btn-primary">
+              <img id="colimg" src="" alt="proj0logo" /> <br />
+              <button type="button" className="btn btn-green">
                 Drop the needle
               </button>
             </div>

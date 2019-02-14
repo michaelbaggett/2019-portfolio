@@ -19,15 +19,10 @@ class About extends Component {
           <div className="space" />
           <div className="row">
             <div className="col-8">
-              <h3>
-                When not at the keyboard, you'll find me on the golf course.{" "}
-              </h3>
+              <h3>Developer Summary Here?? </h3>
             </div>
             <div className="col-4">
-              <h5>
-                My code, much like my golf game, revolves around simplicity with
-                dashes of creativity.{" "}
-              </h5>
+              <h5>Something interesting? </h5>
             </div>
           </div>
         </div>

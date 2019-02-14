@@ -95,7 +95,8 @@ h5 {
 #proj {
   /* border: solid 2px black; */
   margin: 25px;
-  background-color: #eeefef;
+  background-color: #dee0e0;
+  border: solid #3f512b;
 }
 
 #logo {
@@ -115,6 +116,7 @@ h5 {
 .typewriter span {
   width: auto;
   display: inline-block;
+  box-sizing: border-box;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
@@ -139,4 +141,9 @@ h5 {
   50% {
     border-color: #3f512b;
   }
+}
+
+.btn-green {
+  background-color: #3f512b;
+  text: white;
 }
