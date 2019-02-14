@@ -5,9 +5,11 @@ class Jumbotron extends Component {
     return (
       <div>
         <div className="jumbotron">
-          <h1 className="display-4" id="jtronh1" style={font}>
-            Hello I'm Michael.
-          </h1>
+          <div className="typewriter">
+            <h1 className="display-4" style={font}>
+              <span>Hello I'm Michael.</span>
+            </h1>
+          </div>
           <hr className="my-4" style={{ borderColor: "#3f512b" }} />
           <p style={font}>Full-Stack Web Developer based in Austin, TX </p>
         </div>
