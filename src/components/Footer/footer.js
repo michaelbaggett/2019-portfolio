@@ -4,16 +4,19 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <footer style={{ backgroundColor: "white" }} id="asdf">
+        <footer>
           <div className="col">
             <h5>Check me out on github or connect with me on linkedin</h5>
           </div>
           <div className="row">
             <div className="col">
-              <a href="https://github.com/michaelbaggett">
+              <a href="https://github.com/michaelbaggett" target="_blank">
                 <i className="fab fa-github" />
               </a>
-              <a href="https://www.linkedin.com/in/michael-baggett-326689149/">
+              <a
+                href="https://www.linkedin.com/in/michael-baggett-326689149/"
+                target="_blank"
+              >
                 <i className="fab fa-linkedin" />
               </a>
             </div>

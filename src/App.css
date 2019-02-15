@@ -2,9 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+footer {
   background-color: #dee0e0;
 }
+
 .App {
   text-align: center;
 }
@@ -93,10 +95,21 @@ h5 {
 }
 
 #proj {
-  /* border: solid 2px black; */
   margin: 25px;
   background-color: #dee0e0;
-  border: solid #3f512b;
+  border: solid 1px #3f512b;
+  color: #3f512b;
+  box-shadow: 12px 12px 2px 1px rgba(63, 81, 43, 0.2);
+  border-radius: 70% 15% 5% 5%;
+}
+
+#proj2 {
+  margin: 25px;
+  background-color: #dee0e0;
+  border: solid 1px #3f512b;
+  color: #3f512b;
+  box-shadow: 12px 12px 2px 1px rgba(63, 81, 43, 0.2);
+  border-radius: 5% 5% 60% 15%;
 }
 
 #logo {
@@ -143,5 +156,10 @@ h5 {
 
 .btn-green {
   background-color: #3f512b;
-  text: white;
+  color: #ffffff;
+}
+
+.btn-green:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
