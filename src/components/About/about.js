@@ -19,13 +19,10 @@ class About extends Component {
           <div className="space" />
           <div className="row">
             <div className="col-8">
-              <h3>
-                Opera Singer turned web developer. yadda yadda yadda more about
-                me{" "}
-              </h3>
+              <h3>Opera Singer turned web developer. me </h3>
             </div>
             <div className="col-4">
-              <h5>Something interesting? </h5>
+              <h5>Bit more info here once ready </h5>
             </div>
           </div>
         </div>

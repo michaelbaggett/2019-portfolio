@@ -40,15 +40,6 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          <div className="row">
-            <div className="card" style={{ width: "25vw" }}>
-              <img className="card-img-top" src={zoo} alt="zoo logo" />
-              <div className="card-body">
-                <h1 className="card-title">Testing</h1>
-                <p>Testing</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     );
@@ -56,3 +47,13 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+// <div className="row">
+// <div className="card" style={{ width: "25vw" }}>
+//   <img className="card-img-top" src={zoo} alt="zoo logo" />
+//   <div className="card-body">
+//     <h1 className="card-title">Testing</h1>
+//     <p>Testing</p>
+//   </div>
+// </div>
+// </div>
