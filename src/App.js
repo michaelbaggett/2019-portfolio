@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar/navbar";
-import Jumbotron from "./components/Jumbotron/jumbotron";
-import About from "./components/About/about";
-import Projects from "./components/Projects/projects";
-import Footer from "./components/Footer/footer";
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import "./App.css";
 
 class App extends Component {
